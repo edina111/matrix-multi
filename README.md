@@ -1,7 +1,7 @@
 ### matrix-multi
 matrix multiplication coding challenge
 
-date: May 05 2016 \n
+date: May 05 2016
 
 from: [programmr] (http://www.programmr.com/challenges/matrix-multiplication-0)
 
