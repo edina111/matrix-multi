@@ -1,9 +1,9 @@
-# matrix-multi
+### matrix-multi
 matrix multiplication coding challenge
 
-date: May 05 2016
+date: May 05 2016 \n
 
-from: http://www.programmr.com/challenges/matrix-multiplication-0
+from: [programmr] (http://www.programmr.com/challenges/matrix-multiplication-0)
 
 using: cpp.sh
 
