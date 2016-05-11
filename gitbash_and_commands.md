@@ -30,7 +30,27 @@ from: [udemy GIT BASH course](https://www.udemy.com/git-bash/learn/v4/overview)
 - **touch _new-filename_**  will create a new file with filename  
 - **touch _existing-filename_**  will update the _last-edited_ timestamp of the file  
 
-- **mv _filename_ _new-filename_**  mot-a-mot move the file from one name to another  
+- **mv _filename_ _new-filename_**  moves the file from one name to another, for sure also from one place to another  
 
-- **rm _filename_**  delete file from the system  
+- **rm _name_**  delete file or folder from the system  
 
+- **mkdir _dirname_**  creates a folder with the name specified  
+- **rmdir _dirname_**  deletes the specified folder, if folder is empty  
+ - **rm -rf _dirname_**  use cautiously to delete recursively and forced the folder and its content  
+ 
+- **clear**  to make the screen clear and shiny  
+- **exit** to close the cmd prompt  
+
+- **_cmd_ >> _filename_**  writes or appends the output of the command into the file specified  
+- **_cmd_ >  _filename_**  overwrites the file with the output of the cmd  
+
+- **write and run a basic shell script using bash**:  
+>\#!/usr/bin/bash    - the first line contains the place where bash is located   
+> echo "this is a basic bash script"  - then come the bash commands  
+
+- **chmod +_x_ _filename_**  allows the file to be exacutable  
+- **./filename.sh**  executes the file from where it is specified, **./** means execute from _here_  
+
+- **.bashrc** edit this file to customize your bash environment  
+ - **alias npp=notepad++**  add shortcuts for opening the editor, etc.  
+- **source _filename_**  reloads the filechanges in the current terminal session  
