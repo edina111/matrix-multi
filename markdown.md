@@ -57,7 +57,7 @@ or kind of to-do-list, like:
 - [ ] it is not done 
 - [x] this was an easy one -> done
 - [x] list syntax is required -> done
-- [ ] @edina pls _finish_ this so we can close #1 
+- [ ] @edina111 _finishing_ this one, closes #1  
 
 or tables (add empty-line before the table!): 
 
