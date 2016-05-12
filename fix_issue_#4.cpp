@@ -1,8 +1,8 @@
-// example commit to resolve an unserious issue
+// example commit to resolve an two unserious issues
 
 #include <iostream>
 
 int main() {
-  std::cout<< "issue fixed" << std::endl;
+  std::cout<< "another issue fixed" << std::endl;
   return 0;
 }
