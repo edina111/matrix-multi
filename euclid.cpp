@@ -35,6 +35,19 @@ int gcd_divide (int a, int b)
   return a;
 }
 
+int gcd_divide_recursive (int a, int b)
+{
+  if ( b==0 ) return a;
+  else
+  {
+    int temp = a%b;
+    a = b;
+    b = temp;
+    gcd_divide_recursive (a, b);
+  }
+}
+
+
 int main()
 {
 	
@@ -43,9 +56,9 @@ int main()
   std::cout << "1. number = ";  cin >> x;
   cout << "2. number = ";  cin >> y;
   
-  cout << "\nGDT div= " << gcd_divide(x, y) << endl;
-  cout << "\nGDT sbt= " << gcd_subtract(x, y) << endl;
-  
+  cout << "\nGDT div = " << gcd_divide(x, y) << endl;
+  cout << "\nGDT sbt = " << gcd_subtract(x, y) << endl;
+  cout << "\nGDT div recursive = " << gcd_divide_recursive(x,y) << endl;
   
   return 0;
 }
